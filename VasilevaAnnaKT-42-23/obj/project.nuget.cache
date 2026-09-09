@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "YyiVIQaJYOY=",
+  "dgSpecHash": "jkLfRXO9ISE=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.18\\microsoft.aspnetcore.openapi.9.0.18.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog\\6.2.0\\nlog.6.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog.extensions.logging\\6.2.0\\nlog.extensions.logging.6.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog.web.aspnetcore\\6.2.0\\nlog.web.aspnetcore.6.2.0.nupkg.sha512"
   ],
   "logs": []
 }
