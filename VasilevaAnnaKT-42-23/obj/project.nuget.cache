@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YyiVIQaJYOY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.18\\microsoft.aspnetcore.openapi.9.0.18.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
