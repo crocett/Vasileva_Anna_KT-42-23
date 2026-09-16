@@ -58,6 +58,10 @@
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[6.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             }
           },
           "imports": [

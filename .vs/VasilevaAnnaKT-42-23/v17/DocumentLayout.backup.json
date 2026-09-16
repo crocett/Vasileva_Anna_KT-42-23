@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\vasilevaannakt-42-23.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\vasilevaannakt-42-23.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\vasilevaannakt-42-23.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\vasilevaannakt-42-23.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,46 +45,40 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VasilevaAnnaKT-42-23.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-15T11:03:14.771Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "VasilevaAnnaKT-42-23.http",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.http",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.http",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.http",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-09-15T11:01:20.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Properties\\launchSettings.json",
               "RelativeToolTip": "VasilevaAnnaKT-42-23\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-09-09T07:33:50.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Controllers\\WeatherForecastController.cs*",
-              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Controllers\\WeatherForecastController.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwCMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T07:30:00.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\WeatherForecast.cs",
-              "RelativeToolTip": "VasilevaAnnaKT-42-23\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T07:29:54.461Z",
               "EditorCaption": ""
             },
             {
@@ -95,14 +89,13 @@
               "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Program.cs",
               "RelativeToolTip": "VasilevaAnnaKT-42-23\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T07:14:48.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T07:14:48.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\appsettings.Development.json",
               "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\appsettings.Development.json",
@@ -110,8 +103,7 @@
               "RelativeToolTip": "VasilevaAnnaKT-42-23\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-09T07:20:27.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T07:20:27.633Z"
             }
           ]
         }
