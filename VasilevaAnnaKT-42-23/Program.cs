@@ -1,10 +1,17 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
+using System;
+using VasilevaAnnaKT_42_23.Database;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<UniversityDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 try
 {
