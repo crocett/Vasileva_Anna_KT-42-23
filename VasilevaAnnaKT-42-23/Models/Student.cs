@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 
 namespace VasilevaAnnaKT_42_23.Models
@@ -11,8 +12,9 @@ namespace VasilevaAnnaKT_42_23.Models
             public int GroupId { get; set; }          
                     
             public bool IsDeleted { get; set; }
-            public Group Group { get; set; }  
+            public Group Group { get; set; }
 
+            [JsonIgnore]
             public ICollection<Grade> Grades { get; set; } = new List<Grade>();
         }
 }

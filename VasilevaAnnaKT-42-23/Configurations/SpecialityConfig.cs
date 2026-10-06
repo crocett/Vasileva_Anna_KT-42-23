@@ -7,7 +7,7 @@ namespace VasilevaAnnaKT_42_23.Database.Configuration
 {
     public class SpecialityConfiguration : IEntityTypeConfiguration<Speciality>
     {
-        private const string TableName = "cd_speciality";
+        private const string TableName = "tb_speciality";
 
         public void Configure(EntityTypeBuilder<Speciality> builder)
         {

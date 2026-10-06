@@ -4,14 +4,13 @@ using NLog;
 using NLog.Web;
 using System;
 using VasilevaAnnaKT_42_23.Database;
+using VasilevaAnnaKT_42_23.ServiceExtensions;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<UniversityDbContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 try
 {
@@ -22,6 +21,12 @@ try
     builder.Services.AddControllers();
     // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
     builder.Services.AddSwaggerGen();
+
+    builder.Services.AddDbContext<UniversityDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
+
+    builder.Services.AddServices();
 
 
     var app = builder.Build();

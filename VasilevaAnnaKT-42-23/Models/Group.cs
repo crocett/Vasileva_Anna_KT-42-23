@@ -1,4 +1,6 @@
-﻿namespace VasilevaAnnaKT_42_23.Models
+﻿using System.Text.Json.Serialization;
+
+namespace VasilevaAnnaKT_42_23.Models
 {
     public class Group
     {
@@ -9,6 +11,7 @@
         public Speciality Speciality { get; set; } 
         public bool IsDeleted { get; set; }
 
+        [JsonIgnore]
         public ICollection<Student> Students { get; set; } = new List<Student>();
     }
 }

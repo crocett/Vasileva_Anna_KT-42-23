@@ -7,7 +7,7 @@ namespace VasilevaAnnaKT_42_23.Database.Configuration
 {
     public class StudentConfiguration : IEntityTypeConfiguration<Student>
     {
-        private const string TableName = "cd_student";
+        private const string TableName = "tb_student";
 
         public void Configure(EntityTypeBuilder<Student> builder)
         {

@@ -7,7 +7,7 @@ namespace VasilevaAnnaKT_42_23.Database.Configuration
 {
     public class DisciplineConfiguration : IEntityTypeConfiguration<Discipline>
     {
-        private const string TableName = "cd_discipline";
+        private const string TableName = "tb_discipline";
 
         public void Configure(EntityTypeBuilder<Discipline> builder)
         {

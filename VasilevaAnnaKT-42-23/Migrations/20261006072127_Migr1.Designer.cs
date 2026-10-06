@@ -11,8 +11,8 @@ using VasilevaAnnaKT_42_23.Database;
 namespace VasilevaAnnaKT_42_23.Migrations
 {
     [DbContext(typeof(UniversityDbContext))]
-    [Migration("20260928144550_CreateDatabase")]
-    partial class CreateDatabase
+    [Migration("20261006072127_Migr1")]
+    partial class Migr1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,124 +28,161 @@ namespace VasilevaAnnaKT_42_23.Migrations
                 {
                     b.Property<int>("DisciplineId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("discipline_id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DisciplineId"));
 
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false)
+                        .HasColumnName("is_deleted");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar")
+                        .HasColumnName("name");
 
-                    b.HasKey("DisciplineId");
+                    b.HasKey("DisciplineId")
+                        .HasName("pk_tb_discipline_discipline_id");
 
-                    b.ToTable("Disciplines");
+                    b.ToTable("tb_discipline", (string)null);
                 });
 
             modelBuilder.Entity("VasilevaAnnaKT_42_23.Models.Grade", b =>
                 {
                     b.Property<int>("GradeId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("grade_id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GradeId"));
 
                     b.Property<int>("DisciplineId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("discipline_id");
 
                     b.Property<int>("StudentId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("student_id");
 
                     b.Property<int>("Value")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("value");
 
-                    b.HasKey("GradeId");
+                    b.HasKey("GradeId")
+                        .HasName("pk_tb_grade_grade_id");
 
-                    b.HasIndex("DisciplineId");
+                    b.HasIndex(new[] { "DisciplineId" }, "idx_tb_grade_fk_f_discipline_id");
 
-                    b.HasIndex("StudentId");
+                    b.HasIndex(new[] { "StudentId" }, "idx_tb_grade_fk_f_student_id");
 
-                    b.ToTable("Grades");
+                    b.ToTable("tb_grade", (string)null);
                 });
 
             modelBuilder.Entity("VasilevaAnnaKT_42_23.Models.Group", b =>
                 {
                     b.Property<int>("GroupId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("group_id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GroupId"));
 
                     b.Property<int>("Course")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("course");
 
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false)
+                        .HasColumnName("is_deleted");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar")
+                        .HasColumnName("name");
 
                     b.Property<int>("SpecialityId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("speciality_id");
 
-                    b.HasKey("GroupId");
+                    b.HasKey("GroupId")
+                        .HasName("pk_tb_group_group_id");
 
-                    b.HasIndex("SpecialityId");
+                    b.HasIndex(new[] { "SpecialityId" }, "idx_tb_group_fk_f_speciality_id");
 
-                    b.ToTable("Groups");
+                    b.ToTable("tb_group", (string)null);
                 });
 
             modelBuilder.Entity("VasilevaAnnaKT_42_23.Models.Speciality", b =>
                 {
                     b.Property<int>("SpecialityId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("speciality_id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SpecialityId"));
 
                     b.Property<string>("Code")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar")
+                        .HasColumnName("code");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar")
+                        .HasColumnName("title");
 
-                    b.HasKey("SpecialityId");
+                    b.HasKey("SpecialityId")
+                        .HasName("pk_tb_speciality_speciality_id");
 
-                    b.ToTable("Specialities");
+                    b.ToTable("tb_speciality", (string)null);
                 });
 
             modelBuilder.Entity("VasilevaAnnaKT_42_23.Models.Student", b =>
                 {
                     b.Property<int>("StudentId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("student_id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"));
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar")
+                        .HasColumnName("first_name");
 
                     b.Property<int>("GroupId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("group_id");
 
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false)
+                        .HasColumnName("is_deleted");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar")
+                        .HasColumnName("last_name");
 
-                    b.HasKey("StudentId");
+                    b.HasKey("StudentId")
+                        .HasName("pk_tb_student_student_id");
 
-                    b.HasIndex("GroupId");
+                    b.HasIndex(new[] { "GroupId" }, "idx_tb_student_fk_f_group_id");
 
-                    b.ToTable("Students");
+                    b.ToTable("tb_student", (string)null);
                 });
 
             modelBuilder.Entity("VasilevaAnnaKT_42_23.Models.Grade", b =>
@@ -153,14 +190,16 @@ namespace VasilevaAnnaKT_42_23.Migrations
                     b.HasOne("VasilevaAnnaKT_42_23.Models.Discipline", "Discipline")
                         .WithMany("Grades")
                         .HasForeignKey("DisciplineId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_f_discipline_id");
 
                     b.HasOne("VasilevaAnnaKT_42_23.Models.Student", "Student")
                         .WithMany("Grades")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .IsRequired()
+                        .HasConstraintName("fk_f_student_id");
 
                     b.Navigation("Discipline");
 
@@ -172,8 +211,9 @@ namespace VasilevaAnnaKT_42_23.Migrations
                     b.HasOne("VasilevaAnnaKT_42_23.Models.Speciality", "Speciality")
                         .WithMany("Groups")
                         .HasForeignKey("SpecialityId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_f_speciality_id");
 
                     b.Navigation("Speciality");
                 });
@@ -184,7 +224,8 @@ namespace VasilevaAnnaKT_42_23.Migrations
                         .WithMany("Students")
                         .HasForeignKey("GroupId")
                         .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .IsRequired()
+                        .HasConstraintName("fk_f_group_id");
 
                     b.Navigation("Group");
                 });

@@ -7,7 +7,7 @@ namespace VasilevaAnnaKT_42_23.Database.Configuration
 {
     public class GroupConfiguration : IEntityTypeConfiguration<Group>
     {
-        private const string TableName = "cd_group";
+        private const string TableName = "tb_group";
 
         public void Configure(EntityTypeBuilder<Group> builder)
         {

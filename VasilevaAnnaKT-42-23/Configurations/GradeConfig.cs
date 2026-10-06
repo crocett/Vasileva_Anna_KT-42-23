@@ -7,7 +7,7 @@ namespace VasilevaAnnaKT_42_23.Database.Configuration
 {
     public class GradeConfiguration : IEntityTypeConfiguration<Grade>
     {
-        private const string TableName = "cd_grade";
+        private const string TableName = "tb_grade";
 
         public void Configure(EntityTypeBuilder<Grade> builder)
         {

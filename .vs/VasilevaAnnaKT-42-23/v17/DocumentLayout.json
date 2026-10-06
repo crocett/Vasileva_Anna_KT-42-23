@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20260928144550_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VasilevaAnnaKT-42-23\\Migrations\\20260928144550_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20261006072127_Migr1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VasilevaAnnaKT-42-23\\Migrations\\20261006072127_Migr1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\configurations\\studentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\configurations\\studentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\configurations\\disciplineconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\configurations\\disciplineconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20261006071631_Migr2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VasilevaAnnaKT-42-23\\Migrations\\20261006071631_Migr2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\models\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\models\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,79 +51,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260928144550_CreateDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20260928144550_CreateDatabase.cs",
-              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Migrations\\20260928144550_CreateDatabase.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20260928144550_CreateDatabase.cs",
-              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Migrations\\20260928144550_CreateDatabase.cs",
+              "Title": "20261006072127_Migr1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20261006072127_Migr1.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Migrations\\20261006072127_Migr1.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20261006072127_Migr1.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Migrations\\20261006072127_Migr1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T14:45:50.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Group.cs",
-              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Models\\Group.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Group.cs",
-              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Models\\Group.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T14:35:06.852Z",
+              "WhenOpened": "2026-10-06T07:21:27.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentConfig.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Configurations\\StudentConfig.cs",
-              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Configurations\\StudentConfig.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Configurations\\StudentConfig.cs",
-              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Configurations\\StudentConfig.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAuwDIAAAAAAAAAAAAAAA==",
+              "Title": "DisciplineConfig.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Configurations\\DisciplineConfig.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Configurations\\DisciplineConfig.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Configurations\\DisciplineConfig.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Configurations\\DisciplineConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T14:28:29.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ColumnType.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Database\\Helpers\\ColumnType.cs",
-              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Database\\Helpers\\ColumnType.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Database\\Helpers\\ColumnType.cs",
-              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Database\\Helpers\\ColumnType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T14:21:26.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Speciality.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Speciality.cs",
-              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Models\\Speciality.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Speciality.cs",
-              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Models\\Speciality.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T14:09:41.489Z",
+              "WhenOpened": "2026-10-06T07:20:54.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20261006071631_Migr2.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20261006071631_Migr2.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Migrations\\20261006071631_Migr2.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Migrations\\20261006071631_Migr2.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Migrations\\20261006071631_Migr2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T07:16:31.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Student.cs",
               "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Student.cs",
               "RelativeToolTip": "VasilevaAnnaKT-42-23\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T13:48:58.954Z",
+              "WhenOpened": "2026-10-06T06:37:07.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Program.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Program.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T05:49:22.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T08:01:14.428Z",
               "EditorCaption": ""
             }
           ]

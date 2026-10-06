@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VasilevaAnnaKT-42-23")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3f1c43bc03111072345939f9e74d98701a907ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed157502b1db960cd342e7608702834082a8dabb")]
 [assembly: System.Reflection.AssemblyProductAttribute("VasilevaAnnaKT-42-23")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VasilevaAnnaKT-42-23")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
