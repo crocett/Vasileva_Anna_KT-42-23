@@ -8,10 +8,10 @@ namespace VasilevaAnnaKT_42_23.Controllers
         [Route("[controller]")]
         public class GroupController : ControllerBase
         {
-            private readonly ILogger<StudentController> _logger;
+            private readonly ILogger<GroupController> _logger;
             private readonly IGroupService _groupService;
 
-            public GroupController(ILogger<StudentController> logger, IGroupService groupService)
+            public GroupController(ILogger<GroupController> logger, IGroupService groupService)
             {
                 _logger = logger;
                 this._groupService = groupService;

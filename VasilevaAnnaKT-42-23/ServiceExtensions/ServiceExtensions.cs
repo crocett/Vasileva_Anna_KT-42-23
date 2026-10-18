@@ -1,4 +1,5 @@
-﻿using VasilevaAnnaKT_42_23.Interfaces.GroupsInterfaces;
+﻿using VasilevaAnnaKT_42_23.Interfaces.DisciplinesInterfaces;
+using VasilevaAnnaKT_42_23.Interfaces.GroupsInterfaces;
 using VasilevaAnnaKT_42_23.Interfaces.StudentsInterfaces;
 
 namespace VasilevaAnnaKT_42_23.ServiceExtensions
@@ -9,6 +10,7 @@ namespace VasilevaAnnaKT_42_23.ServiceExtensions
         {
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IGroupService, GroupService>();
+            services.AddScoped<IDisciplineService, DisciplineService>();
             return services;
         }
     }
