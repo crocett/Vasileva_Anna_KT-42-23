@@ -2,12 +2,13 @@
 using VasilevaAnnaKT_42_23.Database;
 using VasilevaAnnaKT_42_23.Filters.StudentFilters;
 using VasilevaAnnaKT_42_23.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace VasilevaAnnaKT_42_23.Interfaces.StudentsInterfaces
 {
     public interface IStudentService
     {
-        public Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken);
+        public Task<Student[]> GetStudentsByFilterAsync(StudentGroupFilter filter, CancellationToken cancellationToken);
     }
 
     public class StudentService : IStudentService
@@ -17,10 +18,25 @@ namespace VasilevaAnnaKT_42_23.Interfaces.StudentsInterfaces
         {
             _dbContext = dbContext;
         }
-        public Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken)
+        public async Task<Student[]> GetStudentsByFilterAsync(StudentGroupFilter filter, CancellationToken cancellationToken)
         {
-            var students = _dbContext.Set<Student>().Where(x => x.Group.Name == filter.GroupName).ToArrayAsync(cancellationToken);
-            return students;
+            var students = _dbContext.Set<Student>().AsQueryable();
+            if (!string.IsNullOrWhiteSpace(filter.GroupName))
+                {
+                students = students.Where(x => x.Group != null && x.Group.Name == filter.GroupName);
+                }
+            if (!string.IsNullOrWhiteSpace(filter.Fio))
+                {
+                var text = filter.Fio.Trim().ToLower();
+                students = students.Where(x =>
+                    x.FirstName.ToLower().Contains(text) ||
+                    x.LastName.ToLower().Contains(text));
+            }
+            bool isDeleted = filter.IsDeleted ?? false;
+            students = students.Where(x => x.IsDeleted == isDeleted);
+
+            return await students.ToArrayAsync(cancellationToken);
         }
+           
     }
 }

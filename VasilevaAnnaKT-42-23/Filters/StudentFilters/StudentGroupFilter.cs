@@ -2,6 +2,8 @@
 {
     public class StudentGroupFilter
     {
-        public string GroupName { get; set; }
+        public string? GroupName { get; set; }
+        public string? Fio { get; set; }
+        public bool? IsDeleted { get; set; }
     }
 }

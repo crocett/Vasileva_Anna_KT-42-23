@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NLog.Filters;
+using System.Threading;
 using VasilevaAnnaKT_42_23.Filters.StudentFilters;
 using VasilevaAnnaKT_42_23.Interfaces.StudentsInterfaces;
 
@@ -16,11 +18,17 @@ namespace VasilevaAnnaKT_42_23.Controllers
             _logger = logger;
             this._studentService = studentService;
         }
-        [HttpPost(Name = "GetStudentsByGroup")]
-        public async Task<IActionResult> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken = default)
+
+        [HttpPost(Name = "GetStudentsByFilter")]
+        public async Task<IActionResult> GetStudentsByFilterAsync(StudentGroupFilter filter, CancellationToken cancellationToken = default)
         {
-            var students = await _studentService.GetStudentsByGroupAsync(filter, cancellationToken);
+            if (filter.IsDeleted == null)
+            {
+                filter.IsDeleted = false;
+            }
+            var students = await _studentService.GetStudentsByFilterAsync(filter, cancellationToken);
             return Ok(students);
         }
+
     }
 }

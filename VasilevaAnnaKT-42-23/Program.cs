@@ -4,6 +4,7 @@ using NLog;
 using NLog.Web;
 using System;
 using VasilevaAnnaKT_42_23.Database;
+using VasilevaAnnaKT_42_23.Middlewares;
 using VasilevaAnnaKT_42_23.ServiceExtensions;
 
 
@@ -47,6 +48,7 @@ try
 
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
 
     app.Run();
 }
