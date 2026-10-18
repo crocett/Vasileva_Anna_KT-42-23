@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\interfaces\\groupsinterfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\interfaces\\groupsinterfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\models\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\models\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\filters\\groupfilters\\groupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\filters\\groupfilters\\groupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\configurations\\groupconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\configurations\\groupconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\serviceextensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\serviceextensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\interfaces\\studentsinterfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +43,8 @@
       "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\vasilevaannakt-42-23.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\vasilevaannakt-42-23.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|c:\\users\\user\\source\\repos\\vasileva_anna_kt-42-23\\vasilevaannakt-42-23\\filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283FF706-BF69-49A6-8851-308D3F55A8F3}|VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj|solutionrelative:vasilevaannakt-42-23\\filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,12 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 111,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -50,64 +70,143 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Speciality.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Speciality.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Models\\Speciality.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Speciality.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Models\\Speciality.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T14:28:20.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\ServiceExtensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\ServiceExtensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\ServiceExtensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\ServiceExtensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:13:26.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Models\\Group.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T13:00:29.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Interfaces\\GroupsInterfaces\\IGroupService.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Interfaces\\GroupsInterfaces\\IGroupService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Interfaces\\GroupsInterfaces\\IGroupService.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Interfaces\\GroupsInterfaces\\IGroupService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwBYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T12:57:07.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupConfig.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Configurations\\GroupConfig.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Configurations\\GroupConfig.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Configurations\\GroupConfig.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Configurations\\GroupConfig.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T12:55:09.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupFilter.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Filters\\GroupFilters\\GroupFilter.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Filters\\GroupFilters\\GroupFilter.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Filters\\GroupFilters\\GroupFilter.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Filters\\GroupFilters\\GroupFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T12:54:21.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "VasilevaAnnaKT-42-23\\Controllers\\GroupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T12:49:16.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "StudentGroupFilter.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Filters\\StudentFilters\\StudentGroupFilter.cs",
               "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Filters\\StudentFilters\\StudentGroupFilter.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Filters\\StudentFilters\\StudentGroupFilter.cs",
               "RelativeToolTip": "VasilevaAnnaKT-42-23\\Filters\\StudentFilters\\StudentGroupFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-07T07:48:00.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
               "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
               "RelativeToolTip": "VasilevaAnnaKT-42-23\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-07T07:47:56.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Program.cs",
               "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Program.cs",
               "RelativeToolTip": "VasilevaAnnaKT-42-23\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T08:39:09.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VasilevaAnnaKT-42-23.csproj",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
-              "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
-              "RelativeToolTip": "VasilevaAnnaKT-42-23\\VasilevaAnnaKT-42-23.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-06T08:37:18.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "VasilevaAnnaKT-42-23\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Vasileva_Anna_KT-42-23\\VasilevaAnnaKT-42-23\\Controllers\\StudentController.cs",
               "RelativeToolTip": "VasilevaAnnaKT-42-23\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T08:07:04.304Z",
               "EditorCaption": ""
