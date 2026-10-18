@@ -7,8 +7,9 @@ namespace VasilevaAnnaKT_42_23.Models
         public int GroupId { get; set; }
         public string Name { get; set; }
         public int Course { get; set; }
-        public int SpecialityId { get; set; } 
-        public Speciality Speciality { get; set; } 
+        public int SpecialityId { get; set; }
+        [JsonIgnore]
+        public Speciality? Speciality { get; set; } 
         public bool IsDeleted { get; set; }
 
         [JsonIgnore]

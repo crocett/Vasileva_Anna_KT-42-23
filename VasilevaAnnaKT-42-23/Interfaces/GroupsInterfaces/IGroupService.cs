@@ -8,6 +8,9 @@ namespace VasilevaAnnaKT_42_23.Interfaces.GroupsInterfaces
     public interface IGroupService
     {
         public Task<Group[]> GetGroupsByFilterAsync(GroupFilter filter, CancellationToken cancellationToken);
+        public Task<Group> AddGroupAsync(Group group, CancellationToken cancellationToken);
+        public Task<Group> UpdateGroupAsync(Group group, CancellationToken cancellationToken);
+        public Task DeleteGroupAsync(int groupId, CancellationToken cancellationToken);
     }
 
     public class GroupService : IGroupService
@@ -37,5 +40,36 @@ namespace VasilevaAnnaKT_42_23.Interfaces.GroupsInterfaces
             return await groups.ToArrayAsync(cancellationToken);
         }
 
+        public async Task<Group> AddGroupAsync(Group group, CancellationToken cancellationToken)
+        {
+            _dbContext.Groups.Add(group);
+            await _dbContext.SaveChangesAsync(cancellationToken);
+            return group;
+        }
+
+        public async Task<Group> UpdateGroupAsync(Group group, CancellationToken cancellationToken)
+        {
+            _dbContext.Groups.Update(group);
+            await _dbContext.SaveChangesAsync(cancellationToken);
+            return group;
+        }
+
+        public async Task DeleteGroupAsync(int groupId, CancellationToken cancellationToken)
+        {
+            var group = await _dbContext.Groups.FindAsync(new object[] { groupId }, cancellationToken);
+            if (group != null)
+            {
+                group.IsDeleted = true;
+
+                var studentsToDelete = await _dbContext.Students
+                    .Where(x => x.GroupId == groupId)
+                    .ToListAsync(cancellationToken);
+                foreach (var student in studentsToDelete)
+                {
+                    student.IsDeleted = true;
+                }
+                await _dbContext.SaveChangesAsync(cancellationToken);
+            }
+        }
     }
 }

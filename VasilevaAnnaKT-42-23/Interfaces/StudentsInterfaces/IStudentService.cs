@@ -9,6 +9,9 @@ namespace VasilevaAnnaKT_42_23.Interfaces.StudentsInterfaces
     public interface IStudentService
     {
         public Task<Student[]> GetStudentsByFilterAsync(StudentGroupFilter filter, CancellationToken cancellationToken);
+        public Task<Student> AddStudentAsync(Student student, CancellationToken cancellationToken);
+        public Task<Student> UpdateStudentAsync(Student student, CancellationToken cancellationToken);
+        public Task DeleteStudentAsync(int studentId, CancellationToken cancellationToken);
     }
 
     public class StudentService : IStudentService
@@ -37,6 +40,30 @@ namespace VasilevaAnnaKT_42_23.Interfaces.StudentsInterfaces
 
             return await students.ToArrayAsync(cancellationToken);
         }
-           
+
+        public async Task<Student> AddStudentAsync(Student student, CancellationToken cancellationToken)
+        {
+            _dbContext.Students.Add(student);
+            await _dbContext.SaveChangesAsync(cancellationToken);
+            return student;
+        }
+
+        public async Task<Student> UpdateStudentAsync(Student student, CancellationToken cancellationToken)
+        {
+            _dbContext.Students.Update(student);
+            await _dbContext.SaveChangesAsync(cancellationToken);
+            return student;
+        }
+
+        public async Task DeleteStudentAsync(int studentId, CancellationToken cancellationToken)
+        {
+            var student = await _dbContext.Students.FindAsync(new object[] { studentId }, cancellationToken);
+            if (student != null)
+            {
+                student.IsDeleted = true;
+                await _dbContext.SaveChangesAsync(cancellationToken);
+            }
+        }
     }
+
 }

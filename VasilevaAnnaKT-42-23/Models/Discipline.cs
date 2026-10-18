@@ -1,4 +1,6 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace VasilevaAnnaKT_42_23.Models
 {
@@ -8,6 +10,6 @@ namespace VasilevaAnnaKT_42_23.Models
         public string Name { get; set; }
         public bool IsDeleted { get; set; }
         [JsonIgnore]
-        public ICollection<Grade> Grades { get; set; }
+        public ICollection<Grade>? Grades { get; set; }
     }
 }

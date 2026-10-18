@@ -12,7 +12,9 @@ namespace VasilevaAnnaKT_42_23.Models
             public int GroupId { get; set; }          
                     
             public bool IsDeleted { get; set; }
-            public Group Group { get; set; }
+
+        [JsonIgnore]
+        public Group? Group { get; set; }
 
             [JsonIgnore]
             public ICollection<Grade> Grades { get; set; } = new List<Grade>();
